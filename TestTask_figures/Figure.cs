@@ -116,8 +116,20 @@ namespace TestTask_figures
         public void setCoords()
         {
             int coordsCount;
-            Console.WriteLine("Сколько вершин у данной фигуры?");
-            coordsCount=Convert.ToInt32(Console.ReadLine());
+            while (true)
+            {
+                Console.WriteLine("Сколько вершин у данной фигуры?");
+                try
+                {
+                    coordsCount = Convert.ToInt32(Console.ReadLine());
+                    break;
+                }
+                catch
+                {
+                    Console.WriteLine("Что-то пошло не так, попробуйте еще раз");
+                }
+            }
+            
 
             for(int i=0; i<coordsCount; i++)
             {
@@ -162,7 +174,7 @@ namespace TestTask_figures
             h1 += coords[coords.Count - 2] * coords[1];
             h2 += coords[coords.Count - 1] * coords[0];
 
-            return (h1 - h2) / 2;
+            return Math.Abs(h1 - h2) / 2;
         }
 
 
