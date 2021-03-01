@@ -1,0 +1,42 @@
+CREATE TABLE Products
+(
+  ProductId int PRIMARY KEy,
+  ProductName varchar(100) not NULL
+);
+
+INSERT into Products(ProductId, ProductName) VALUES (1, 'p_1');
+INSERT into Products(ProductId, ProductName) VALUES (2, 'p_2');
+INSERT into Products(ProductId, ProductName) VALUES (3, 'p_3');
+INSERT into Products(ProductId, ProductName) VALUES (4, 'YOOOOOO');
+
+
+CREATE TABLE Categorys
+(
+ CategoryId int PRIMARY Key,
+  CategoryName varchar(100) not NULL
+);
+
+INSERT into Categorys(CategoryId, CategoryName) VALUES (1, 'c_1');
+INSERT into Categorys(CategoryId, CategoryName) VALUES (2, 'c_2');
+INSERT into Categorys(CategoryId, CategoryName) VALUES (3, 'c_3');
+
+create Table ProdCategor
+(
+  ProductId int, 
+  CategoryId int, 
+  FOREIGN key(CategoryId) REFERENCES Categorys(CategoryId),
+  FOREIGN KEY(ProductId) REFERENCES Products(ProductId)
+);
+
+INSERT into ProdCategor(ProductId, CategoryId) VALUES (1, 1);
+INSERT into ProdCategor(ProductId, CategoryId) VALUES (1, 2);
+INSERT into ProdCategor(ProductId, CategoryId) VALUES (2, 3);
+INSERT into ProdCategor(ProductId, CategoryId) VALUES (3, 3);
+
+
+SELECt ProductName, CategoryName
+FROM Products
+LEFT JOIN ProdCategor
+ON Products.ProductId=ProdCategor.productid
+LEFT JOIN Categorys Categorys
+ON ProdCategor.CategoryId=Categorys.categoryid

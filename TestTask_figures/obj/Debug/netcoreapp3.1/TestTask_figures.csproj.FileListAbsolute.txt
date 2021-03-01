@@ -1,0 +1,13 @@
+G:\Работа\TestTaskC#\TestTask_figures\TestTask_figures\bin\Debug\netcoreapp3.1\TestTask_figures.exe
+G:\Работа\TestTaskC#\TestTask_figures\TestTask_figures\bin\Debug\netcoreapp3.1\TestTask_figures.deps.json
+G:\Работа\TestTaskC#\TestTask_figures\TestTask_figures\bin\Debug\netcoreapp3.1\TestTask_figures.runtimeconfig.json
+G:\Работа\TestTaskC#\TestTask_figures\TestTask_figures\bin\Debug\netcoreapp3.1\TestTask_figures.runtimeconfig.dev.json
+G:\Работа\TestTaskC#\TestTask_figures\TestTask_figures\bin\Debug\netcoreapp3.1\TestTask_figures.dll
+G:\Работа\TestTaskC#\TestTask_figures\TestTask_figures\bin\Debug\netcoreapp3.1\TestTask_figures.pdb
+G:\Работа\TestTaskC#\TestTask_figures\TestTask_figures\obj\Debug\netcoreapp3.1\TestTask_figures.csprojAssemblyReference.cache
+G:\Работа\TestTaskC#\TestTask_figures\TestTask_figures\obj\Debug\netcoreapp3.1\TestTask_figures.AssemblyInfoInputs.cache
+G:\Работа\TestTaskC#\TestTask_figures\TestTask_figures\obj\Debug\netcoreapp3.1\TestTask_figures.AssemblyInfo.cs
+G:\Работа\TestTaskC#\TestTask_figures\TestTask_figures\obj\Debug\netcoreapp3.1\TestTask_figures.csproj.CoreCompileInputs.cache
+G:\Работа\TestTaskC#\TestTask_figures\TestTask_figures\obj\Debug\netcoreapp3.1\TestTask_figures.dll
+G:\Работа\TestTaskC#\TestTask_figures\TestTask_figures\obj\Debug\netcoreapp3.1\TestTask_figures.pdb
+G:\Работа\TestTaskC#\TestTask_figures\TestTask_figures\obj\Debug\netcoreapp3.1\TestTask_figures.genruntimeconfig.cache
